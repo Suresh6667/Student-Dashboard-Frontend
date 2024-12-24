@@ -3,7 +3,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_URL = 'https://student-dashboard-backend-ng6m.onrender.com/api/students';
+const API_URL = 'http://localhost:5000/api/students';
 
 const useStudentStore = create((set) => ({
   students: [],
