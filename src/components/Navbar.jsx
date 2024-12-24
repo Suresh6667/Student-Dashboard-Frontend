@@ -14,7 +14,7 @@ const Navbar = () => {
         </svg>
         <input className="bg-white outline-none w-4/5 font-semibold" type="text" placeholder="Search your course" />
       </div>
-    <div className="flex items-center space-x-8">
+    <div className="flex items-center space-x-6">
       <AiOutlineQuestionCircle className="w-6 h-6 text-gray-500 cursor-pointer" />
       <LuMessageSquareMore  className="w-6 h-6 text-gray-500 cursor-pointer" />
       <LuSettings2 className="w-6 h-6 text-gray-500 cursor-pointer" />

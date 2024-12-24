@@ -58,7 +58,7 @@ const StudentList = () => {
             <select
               value={selectedCohort}
               onChange={(e) => setSelectedCohort(e.target.value)}
-              className="px-10 py-3 bg-gray-200 text-gray-800 font-medium text-lg rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 cursor-pointer"
+              className="px-10 py-3 bg-gray-200 text-gray-800 font-medium text-lg rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
             >
               <option value="">All Cohorts</option>
               <option value="AY 2024-2025">AY 2024-2025</option>
@@ -71,9 +71,9 @@ const StudentList = () => {
             <select
               value={selectedCourse}
               onChange={(e) => setSelectedCourse(e.target.value)}
-              className="px-10 py-3 bg-gray-200 text-gray-800 font-medium text-lg rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 cursor-pointer"
+              className="px-10 py-3 bg-gray-200 text-gray-800 font-medium text-lg rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
             >
-              <option>All Courses</option>
+              <option value="">All Courses</option>
               {courseOptions.map((course) => (
                 <option key={course.value} value={course.value}>
                   {course.label}
